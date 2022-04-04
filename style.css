@@ -136,7 +136,7 @@ a {
   box-sizing: border-box;
   background: #3b6cff78;
   transition: ease 0.5s;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.092);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.09);
 }
 
 .show {
