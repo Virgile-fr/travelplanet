@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Travel Planet Exercice</title>
+</head>
+
+<body>
+
+  <div class="login-wrap">
+
+    <div class="backdrop">
+
+      <div class="login-html">
+
+        <form class="login-form" id="form">
+
+          <h1>🌐 <b>Sign</b>In</h1>
+
+          <br>
+
+          <div class="group">
+            <label for="site" class="label">Site Id</label>
+            <input id="site" type="text" class="input">
+          </div>
+
+          <div class="group">
+            <label for="user" class="label">User Id</label>
+            <input id="user" type="text" class="input">
+          </div>
+
+          <div class="group">
+            <label for="pwd" class="label">Password</label>
+            <input id="pwd" type="password" class="input" data-type="password">
+          </div>
+
+          <br>
+
+          <div class="group" id="submit" style="cursor:pointer">
+            <button type="submit" class="button" style="cursor:pointer">Sign In</button>
+          </div>
+
+          <div class="error hide" id="error">
+            <p>😔 Identifiants Incorects, réessayez</p>
+          </div>
+
+        </form>
+
+        <div class="noerror hide" id="good">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
