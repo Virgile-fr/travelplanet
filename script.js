@@ -98,7 +98,7 @@ function askForJsonUrl() {
     download(urlGetJson);
 };
 
-// 💥💾 JSON
+// 💥 💾 JSON
 function download(url) {
   fetch(url)
     .then(async (response) => {
